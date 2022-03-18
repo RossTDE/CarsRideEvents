@@ -57,6 +57,7 @@ namespace GameCycle
 					ICar.place++; //для следующего места
 					CarsList.Remove(car);
                 }
+				CarsToDelete.Clear();
 
 				for (int i = 0; i < 3; i++) //просто красивое ожидание
 				{
